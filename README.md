@@ -16,43 +16,25 @@ An analysis was performed and visualizations of the data was created regarding P
 - Software: Python 3.9.12, Jupyterlab 3.3.2, Pandas 1.4.2, MatPlotLib 3.5.1
 
 ## Summary of Results
-### Summary of School District Analysis
-#### Prior to Removing 9th Grade Test Scores from Thomas High School
-There were 39,170 students included in the school district summary.
-![Previous Summary of PyCity School District Statistics](Resources/School_District_Stats_Summary_Previous.PNG)
+### Summary of Rides, Drivers and Faires per City TYpe
+![Ride Share Metrics per City Type](Resources/Ride_Share_Metrics_Summary.PNG)
 
-#### Summary After Removal of Students
-There 461 student test scores (reading and math) were removed from the aggregation. The 1.2% difference in the district populate barely made a difference on the test scores.
-![Summary of PyCity School District Statistics](Resources/School_District_Stats_Summary.PNG)
+### Summary of Weekly Fares Collected per City Type from January thru April 201
+![Weekly Fares per City Type](Resources/Weekly_Fares_per_City_Type.PNG)
 
-### Performance Summary by School Name
-![Summary by School Name](Resources/Summary_by_School_Name.PNG)
-
-The removal of 461 students from Thomas High did not have a significant impact on the average school performance. Below is the original performance summary that includes all students.
-![Original Thomas High School Performance](Resources/Thomas_Performance.PNG)
-
-### Top Five (5) Performing Schools
-Thomas High School was in the original top five schools and remains there even without 461 9th grade scores.
-![Summary of Top Five Schools](Resources/Summary_Top_Five.PNG)
-
-### Lowest Five (5) Performing Schools
-![Summary of Top Low Schools](Resources/Summary_Low_Five.PNG)
-
-### Math and Reading Scores by Grade Level
-Thomas High School scores for 9th grade math and reading were marked 0.0 because there were excluded.
-![Math and Reading by Grade](Resources/Math_Reading_Grade.PNG)
-
-### School Performance and School Spending Analysis
-There is noticeable affect on the school spending analysis metrics compared to previous metrics.
-![Summary of School Scores and Spending](Resources/Scores_Spending.PNG)
-
-### School Performance and School Size Analysis
-There is noticeable affect on the school performance and school size analysis metrics compared to previous metrics.
-![Summary of School Scores and Size](Resources/Scores_Size.PNG)
-
-### School Performance and School School Type Analysis
-There is noticeable affect on the school school performance vs. school type analysis metrics compared to previous metrics.
-![Summary of School Scores and School Type](Resources/Scores_Type.PNG)
+### Total Fare by City Type Visualization
+![Total Fare by City Type](Resources/Total_Fare_by_City_Type_Chart.PNG)
 
 ## Final Conclusion Statement
-THe 1.2% change in student population made a less than 1% difference in Thomas High Schools testing score metrics, and an even smaller impact on the overall metics oc the school district. Thomas High School remains in the top five performing schools.
+An analysis of the data reveals that there are considerably more drivers and rides taked in Urban cities than in Suburban cities, and especially in Rural areas. Surburban ride requests are 5 times more than Rural, and Urban cities have 2.6 times more than suburban, and 13 times more than rural cities. What is interesting is that in Rural and Suburban areas there are approximately 1 (or 1.6 for Rural and 1.3 for Surburban to be exact) driver per ride. In Urban areas, there are far more drivers than ride requests, almost 2 drivers per ride. The average cost of a ride in Rural areas is almost $10 more than urban areas, but average fares collected by drivers in Rural area is almmost 3.4 times mor than in urban areas. It seems drivers make more in Rural areas than in Urban area because there is hardly any competition.
+
+For the most part, Urban and Suburban fares collected match each other on monthly basis (See Chart). Rural fares collected are slowly increase, but with very small increases. 
+
+### Recommendation #1
+Based on plain supply and demanad economics, the over abundance of drivers and a lack of ride demand to match forced the cost of rideshare to be half or more than half the the cost of Suburban and Rural areas. If more drivers can be created or added to the Surburban and especially in the Rural areas, perhaps the price/fare would decrease, making it more affordable, therefore increasing the number of riders.
+
+### Recommendation #2
+There is a noticeable drip in faares collected within all three areas in March. In fact, there was a surge at the end of February, and then a dip in the beginning of March. Recommended finding out what holidays or events occurred during that timeframe. Perhaps there was a system glitch that prevented usage of the system.
+
+### Recommendation #3
+Identify events on a weekly or monthly basis within the surburban and rural areas. For those events, advertise and sponsor some of these events to increase potential rider knowledge of the company services, and to also promote new drivers to join.
